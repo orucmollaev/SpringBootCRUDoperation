@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url : jdbc:mysql://localhost:3306/cars
+    hikari:
+      username: root
+      password: Fedor5786077+-
+  jpa:
+    hibernate:
+      ddl-auto: create
